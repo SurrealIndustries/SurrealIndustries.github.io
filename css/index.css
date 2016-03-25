@@ -1,0 +1,73 @@
+#popupForm {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+  position: fixed;
+  overflow: auto;
+  z-index: 2;
+}
+#shadowBackground {
+  width: 100%;
+  height: 100%;
+  opacity: .8;
+  background-color: #313131;
+}
+#popupContact {
+  position: absolute;
+  left: 50%;
+  top: 17%;
+  margin-left: -200px;
+  font-family: 'Raleway', sans-serif;
+  max-width: 400px;
+  min-width: 250px;
+  padding: 20px 30px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  background-color: #fff
+}
+.overlap-img {
+  background-image: url("../img/backgrounds/homebg.jpg");
+  background-size: cover;
+  min-height: 800px;
+  padding-top: 300px;
+}
+@media only screen and (max-width: 766px) {
+  .overlap-img {
+    padding-top: 180px;
+  }
+}
+
+/*Form Style*/
+
+.label-simple {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+}
+.input-simple {
+  /*border: 1px solid #dcdcdc;*/
+  margin: 1px;
+  width: 100%;
+}
+.input-simple:focus {
+  outline: none;
+}
+.btn-simple {
+  cursor: pointer;
+  width: auto;
+  float: right;
+  font-weight: bold;
+  padding: 6px 10px;
+}
+.select-simple {
+  padding: 0 10px;
+}
+.select-simple option {
+  padding: 6px 10px;
+}
+.form-footer {
+  font-size: 12px;
+  padding: 10px 0;
+}

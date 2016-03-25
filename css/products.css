@@ -1,0 +1,6 @@
+.overlap-img {
+  background-image: url("../img/backgrounds/productsbg.jpg");
+  background-size: cover;
+  min-height: 600px;
+  padding-top: 100px;
+}

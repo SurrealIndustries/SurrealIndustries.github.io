@@ -1,0 +1,127 @@
+/* latin-ext */
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* Styles for the Page Body */
+
+html {
+  height: 100%;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  min-height: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+ul {
+  list-style: none;
+}
+.header-logo {
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+
+/* Remove blue highlight over image*/
+
+img {
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.footerInfo {
+  background-color: #E7E7E7;
+}
+.btn-purple {
+  background: #c021c4;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* navbar customizations */
+
+.header-img {
+  background: url("../img/backgrounds/headerbg.png") repeat-x;
+  height: 85px;
+  border: none;
+}
+.myTransition {
+  transition: color 0.7s, background-color 0.2s;
+  -webkit-transition: color 0.7s, background-color 0.2s;
+  /* Safari */
+  -moz-transition: color 0.7s, background-color 0.2s;
+  -o-transition: color 0.7s, background-color 0.2s;
+  transition-timing-function: ease-in;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-delay: initial;
+  -webkit-transition-delay: initial;
+  -moz-transition-delay: initial;
+  -o-transition-delay: initial;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border: none;
+}
+.navbar .myTransition:hover, #myNavbar .myTransition:hover, .myTransition:hover {
+  color: black;
+}
+
+/* only for changing the screen size */
+
+@media only screen and (max-width: 766px) {
+  .collapsing ul li a, .in ul li a {
+    color: black !important;
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.8);
+    border: solid 1px #000;
+  }
+  .collapsing ul li a:hover, .in ul li a:hover {
+    color: white !important;
+    background-color: rgb(73, 71, 71) !important;
+    background-color: rgba(73, 71, 71, 0.9) !important;
+    /*border-color: #000 !important;*/
+  }
+}
+
+/* end navbar customizations */
+
+.img-height {
+  height: 135px;
+}
+.row-padding {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.row-margin {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.color-white {
+  color: white;
+}
+.color-surreal {
+  color: #9CFFE8;
+  text-shadow: 0 0 8px #000000;
+  font-weight: 300;
+}

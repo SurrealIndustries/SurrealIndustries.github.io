@@ -1,0 +1,6 @@
+.overlap-img {
+  background-image: url("../img/backgrounds/homebg.jpg");
+  background-size: cover;
+  min-height: 800px;
+  padding-top: 300px;
+}
