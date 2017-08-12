@@ -45,7 +45,7 @@ function submitForm() {
     return false;
   }
   // submit sign up values to database
-  $.post("http://www.surrealindustries.net/email_list.html", {
+  $.post("https://www.surrealindustries.net/email_list.html", {
       email: email,
       //fName: firstName,
       //lName: lastName,

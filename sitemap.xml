@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://www.surrealindustries.net/</loc>
+        <loc>https://www.surrealindustries.net/</loc>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://www.surrealindustries.net/about.html</loc>
+        <loc>https://www.surrealindustries.net/about.html</loc>
     </url>
     <url>
-        <loc>http://www.surrealindustries.net/products.html</loc>
+        <loc>https://www.surrealindustries.net/products.html</loc>
     </url>
 </urlset>
